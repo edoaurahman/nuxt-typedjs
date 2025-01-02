@@ -92,7 +92,8 @@ onMounted(() => {
 
 ## Original Sources
 
-- [Typed.js](https://github.com/mattboldt/typed.js)
+This project is based on the original project by Matt Boldt, available at [Typed.js](https://github.com/mattboldt/typed.js).  
+Modifications and enhancements have been made by Ridho Aulia' Rahman in 2025.
 
 <!-- Badges -->
 [npm-version-src]: https://img.shields.io/npm/v/nuxt-typedjs/latest.svg?style=flat&colorA=020420&colorB=00DC82
