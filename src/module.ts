@@ -1,9 +1,6 @@
-import { defineNuxtModule, addPlugin, createResolver, addImports, addImportsDir } from '@nuxt/kit'
+import { defineNuxtModule, addPlugin, createResolver, addImportsDir } from '@nuxt/kit'
 
-// Module options TypeScript interface definition
-export interface ModuleOptions {}
-
-export default defineNuxtModule<ModuleOptions>({
+export default defineNuxtModule({
   meta: {
     name: 'nuxt-typedjs',
     configKey: 'typedjs',

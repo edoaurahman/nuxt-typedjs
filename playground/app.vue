@@ -1,6 +1,6 @@
 <template>
   <div>
-    <span id="element"></span>
+    <span id="element" />
   </div>
 </template>
 
@@ -11,8 +11,7 @@ onMounted(() => {
     strings: ['Hello', 'World'],
     typeSpeed: 50,
     backSpeed: 50,
-    loop: true
+    loop: true,
   })
 })
-
 </script>

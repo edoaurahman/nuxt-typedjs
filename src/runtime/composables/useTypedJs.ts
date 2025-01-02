@@ -1,6 +1,8 @@
-import { useNuxtApp } from "#app"
-import Typed, { type TypedOptions } from "typed.js"
-export const useTypedJs = (): ((elementId: any, options: TypedOptions) => Typed) => {
-    const { $typed } = useNuxtApp()
-    return (elementId: any, options: TypedOptions) => new ($typed as typeof Typed)(elementId, options)
+import type Typed from 'typed.js'
+import type { TypedOptions } from 'typed.js'
+import { useNuxtApp } from '#app'
+
+export const useTypedJs = (): ((elementId: string, options: TypedOptions) => Typed) => {
+  const { $typed } = useNuxtApp()
+  return (elementId: string, options: TypedOptions) => new ($typed as typeof Typed)(elementId, options)
 }
