@@ -1,6 +1,6 @@
 {
   "name": "nuxt-typedjs",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Nuxt module for Typed.js",
   "repository": "edoaurahman/nuxt-typedjs",
   "license": "MIT",

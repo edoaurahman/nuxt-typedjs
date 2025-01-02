@@ -1,6 +1,22 @@
 # Changelog
 
 
+## v1.1.1
+
+[compare changes](https://github.com/edoaurahman/nuxt-typedjs/compare/v1.1.0...v1.1.1)
+
+### 📖 Documentation
+
+- Update README to reflect module name change and add usage example for Nuxt Typed.js ([c83028c](https://github.com/edoaurahman/nuxt-typedjs/commit/c83028c))
+
+### 🏡 Chore
+
+- Add MIT License file to the repository ([929f21b](https://github.com/edoaurahman/nuxt-typedjs/commit/929f21b))
+
+### ❤️ Contributors
+
+- Ridho Aulia' Rahman <edoaurahman@gmail.com>
+
 ## v1.1.0
 
 
