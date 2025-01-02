@@ -24,7 +24,7 @@ Typed.js is a library that types. Enter in any string, and watch it type at the 
 
 
 - [✨ &nbsp;Release Notes](/CHANGELOG.md)
-<!-- - [🏀 Online playground](https://stackblitz.com/github/your-org/my-module?file=playground%2Fapp.vue) -->
+- [🏀 Online playground](https://stackblitz.com/github/edoaurahman/nuxt-typedjs?file=playground%2Fapp.vue)
 <!-- - [📖 &nbsp;Documentation](https://example.com) -->
 
 ## Quick Setup
