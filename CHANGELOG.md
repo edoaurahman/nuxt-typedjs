@@ -1,6 +1,27 @@
 # Changelog
 
 
+## v1.2.0
+
+[compare changes](https://github.com/edoaurahman/nuxt-typedjs/compare/v1.1.1...v1.2.0)
+
+### 🚀 Enhancements
+
+- Add Vite hook to extend config with alias for typed.js ([5c65ad5](https://github.com/edoaurahman/nuxt-typedjs/commit/5c65ad5))
+
+### 📖 Documentation
+
+- Update online playground link in README ([1c9e3df](https://github.com/edoaurahman/nuxt-typedjs/commit/1c9e3df))
+
+### 🏡 Chore
+
+- **release:** V1.1.1 ([a06d54e](https://github.com/edoaurahman/nuxt-typedjs/commit/a06d54e))
+- Update package.json for version 1.1.2 and enhance repository metadata ([3a8f5bd](https://github.com/edoaurahman/nuxt-typedjs/commit/3a8f5bd))
+
+### ❤️ Contributors
+
+- Ridho Aulia' Rahman <edoaurahman@gmail.com>
+
 ## v1.1.1
 
 [compare changes](https://github.com/edoaurahman/nuxt-typedjs/compare/v1.1.0...v1.1.1)
