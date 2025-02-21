@@ -39,6 +39,7 @@ npm run test'''
 
   }
   environment {
-    NODE_ENV = 'production'
+    NODEJS_HOME = 'tool name: \'NodeJS\', type: \'NodeJSInstallation\''
+    PATH = 'PATH = "${env.NODEJS_HOME}/bin:${env.PATH}"'
   }
 }
