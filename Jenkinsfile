@@ -1,5 +1,10 @@
 pipeline {
-  agent any
+  agent {
+    node {
+      label 'nodejs'
+    }
+
+  }
   stages {
     stage('Install Dependency') {
       steps {
@@ -32,5 +37,8 @@ npm run test'''
       }
     }
 
+  }
+  environment {
+    NODE_ENV = 'production'
   }
 }
