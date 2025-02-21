@@ -22,7 +22,7 @@ npm run lint'''
     stage('Build') {
       steps {
         sh '''echo "Build plugin"
-npm run prepack'''
+npm run dev:prepare'''
       }
     }
 
