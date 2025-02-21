@@ -1,11 +1,6 @@
 pipeline {
   tools {nodejs "node"}
-  agent {
-    node {
-      label 'local'
-    }
-
-  }
+  agent any
   stages {
     stage('Install Dependency') {
       steps {
